@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.milanuncios.com/mis-anuncios/]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=email]]></target>
+	<value><![CDATA[info@dsignr.xyz]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=contra]]></target>
+	<value><![CDATA[lancelot23]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='Olvidé mi contraseña'])[1]/following::input[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Mis anuncios favoritos]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Modificar anuncios]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=INFORMÁTICO DISEÑADOR ASESOR A DOMICILIO]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>selectWindow</command>
+	<target><![CDATA[win_ser_1]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[id=fav289620199]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='wqxfuzqfxswcwraatqcfdvxdxdvsdw'])[1]/following::button[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=(.//*[normalize-space(text()) and normalize-space(.)='¿QUE ES ESTO?'])[1]/following::b[1]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
